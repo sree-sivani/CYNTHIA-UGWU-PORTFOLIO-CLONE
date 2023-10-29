@@ -2,7 +2,7 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
 });
-
+var timeout;
 function cursorMove(xscale, yscale) {
 
 window.addEventListener('mousemove', function(dets){
@@ -92,6 +92,14 @@ function skewCircle() {
     });
   });
 
+  
+  function timeDisplay(){
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() ;
+    document.querySelector('#time').innerHTML = time;
+  }
+
 firstPageAnimation();
 cursorMove();
-skewCursor();
+skewCircle();
+timeDisplay();

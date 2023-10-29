@@ -162,7 +162,6 @@ body {
     z-index: 999;
     position : absolute;
     height : 140%;
-    /* display: none; */
     opacity: 0;
 }
 
@@ -281,3 +280,4 @@ body {
 .boundingelem{
     transform: translateY(100%);
 }
+
