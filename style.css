@@ -205,6 +205,13 @@ body {
     border-radius: 100px;
 }
 
+#text-about a:hover{
+    color : #000;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition: background-color 0.8s ease;
+}
+
 #subscribe{
     padding : 20px 30px;
     background-color: #000;
